@@ -1,0 +1,188 @@
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: rgb(228, 228, 228);
+    z-index: 2000000;
+
+    
+}
+
+
+.left-section {
+    
+    width: 150px;
+    display: flex;
+    align-items: center;
+
+    
+    
+}
+.hamburger-menu {
+    height: 14px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+.voice-search-button {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.v-button {
+    margin-left: 5px;
+}
+
+.such-button {
+    height: 25px;
+    margin-top: 4px;
+    background-color: rgb(240, 240, 240);
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px;
+    margin-right: 4px;
+    position: relative;
+    opacity;
+}
+
+.such-buttonv {
+    height: 35px;
+    margin-top: 4px;
+    border-style: solid;
+    border-color: white;
+    margin-left: 7px;
+    margin-right: 4px;
+    position: relative;
+    opacity: ;
+    
+}
+
+.such-buttonv :hover {
+    opacity: 0;
+}
+
+.such-button .tool-tip {
+    background-color: grey;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 12px;
+    bottom: -30px;
+    
+}
+.tool-tip {
+    opacity: 0;
+    margin-left: -7px;
+}
+.voice-search-button :hover .tool-tip{
+    opacity: 1;
+}
+.voice-search-button :active .tool-tip{
+    opacity: 1;
+}
+
+.youtube-logo {
+    height: 20px;
+
+}
+
+.middle-section {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 100%;
+    flex: 1;
+    height: fit-content;
+
+}
+.mac {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 600px;
+    flex: 1;
+    height: fit-content;   
+}
+
+
+.right-section {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 20px;
+    height: 14px;
+
+}
+.up1 {
+    height: 24px;
+}
+.up2 {
+    height: 24px;
+}
+.up3 {
+    height: 24px;
+}
+.not3 {
+    position: absolute;
+    top: -4px;
+    right: -1px;
+    color: white;
+    background-color: red;
+    font-family: arial;
+    border-radius: 5px;
+    font-size: 12px;
+    padding-left: 3px;
+    padding-bottom: 4px;
+    padding-right: 2px;
+    padding-top: 2px;
+    width: 4px;
+    
+    
+    
+    
+}
+.search-bar {
+    flex: 1;
+    height: 34px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(8, 6, 6);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0.05);
+    border-style: solid;
+}
+.search-bar::placeholder {
+    font-family: Arial;
+}
+.tool-tip {
+    position: absolute;
+    background-color: grey;
+    padding-top: 4px;
+    padding-left: 8px;
+    bottom: -15px;
+    margin-right: 200px
+    
+}
+.bv :hover {
+    opacity: 0.5;
+}

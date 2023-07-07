@@ -1,0 +1,138 @@
+
+.thumbnail{
+    width:100%;
+    display: block;
+}
+.sidebar {
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    top: 57px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    vertical-align: middle;
+    align-items: center;
+
+}
+.sdb-h {
+    align-items: center
+    margin-left: 14px
+    flex-direction: row;
+}
+.sidebar div {
+    font-family: arial;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.nina:hover {
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+.nina {
+    width: 75px;
+    height: 75px;
+    align-items: center;
+    display: flex;
+    
+}
+.thumbnail-row {
+    margin-bottom: 12px;
+    z-index: 0;
+    position: relative;
+    
+
+}
+.thumbnail-row1 {
+    margin-bottom: 0px;
+    z-index: 0;
+    position: relative;
+    position: relative;
+    
+
+}
+.sidebar img {
+    height: 24px;
+}
+
+
+
+
+.video-author{
+    font-family: arial;
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 4px;
+
+}
+.video-preview{
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+.video-title{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    margin-bottom: 10px;
+    
+}
+.channel-picture{
+    width: 50px;
+    vertical-align: top;
+
+}
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    
+}
+.video-info{
+    display: inline-block;
+    width: 100%;
+}
+.profile-picture{
+    width: 36px;
+    border-radius: 50px;
+    display: inline-block;
+
+}
+.video-stats{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+
+}
+.boxtwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 96px;
+    padding-bottom: 3000px;
+}
+@media (max-width:750px) {
+    .boxtwo {grid-template-columns: 1fr ;}
+}
+@media (min-width :1000px) {
+    .boxtwo {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}xc
+
+
+.video-time {
+    position: absolute;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+    right: 8px;
+    bottom: 5px;
+    z-index: 2;
+}
